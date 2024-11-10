@@ -1,0 +1,51 @@
+.small_size {
+    height: 200px;
+}
+
+#navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+.card {
+    background: linear-gradient(to right, rgba(0, 183, 255, 0.212), rgba(141, 0, 0, 0.199));
+}
+
+.container-fluid {
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    justify-content: center;
+    height: 2.6rem;
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+}
+
+.spacebw {
+    justify-content: space-between;
+}
+
+#autotype {
+    width: auto;
+    animation: blink 0.5s step-end infinite alternate;
+    border-right: 1px solid;
+    font-family: monospace;
+    color: rgb(129, 129, 129);
+}
+
+ul {
+    list-style-type: none;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
